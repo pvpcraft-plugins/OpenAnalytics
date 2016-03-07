@@ -61,14 +61,14 @@
         <snapshotRepository>
             <id>pjt-repo-snapshots</id>
             <name>repo.pjt.me Snapshots</name>
-            <url>http://repo.pjt.me/content/repositories/snapshots/</url>
+            <url>http://pvpcraft.ca:8080/content/repositories/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
     <repositories>
         <repository>
-            <id>bukkit-repo</id>
-            <url>http://repo.bukkit.org/content/groups/public</url>
+            <id>spigot-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
         <repository>
             <id>pjt-repo</id>
