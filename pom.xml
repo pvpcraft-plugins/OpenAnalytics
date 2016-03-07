@@ -52,27 +52,10 @@
         <url>http://ci.pjt.me</url>
     </ciManagement>
 
-    <distributionManagement>
-        <repository>
-            <id>pjt-repo-releases</id>
-            <name>repo.pjt.me Releases</name>
-            <url>http://repo.pjt.me/content/repositories/releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>pjt-repo-snapshots</id>
-            <name>repo.pjt.me Snapshots</name>
-            <url>http://pvpcraft.ca:8080/content/repositories/snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
-
     <repositories>
         <repository>
             <id>spigot-repo</id>
             <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
-        </repository>
-        <repository>
-            <id>pjt-repo</id>
-            <url>http://repo.pjt.me/content/groups/public/</url>
         </repository>
     </repositories>
 
